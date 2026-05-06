@@ -170,7 +170,7 @@ The verification kernel (`kernel.py`, 287 lines) is intentionally minimal:
 ```bibtex
 @article{qu2026neuroproof,
   title={NeuroProof: A Hybrid Propositional Proof System with Adaptive Tactic Synthesis and Certified Proof Checking},
-  author={Guangheng Qu},
+  author={Qu, Guanheng and Zhang, Chunxiao and Liu, Jiangming},
   journal={},
   year={2026}
 }
