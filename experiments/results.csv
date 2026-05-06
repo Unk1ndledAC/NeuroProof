@@ -1,0 +1,16 @@
+name,instance_id,n_vars,n_clauses,status,solver,time_sec,decisions,conflicts,learned,proof_size,proof_depth
+tauto(p -> p),0,1,0,PROVED,NeuroProof+ATSS,0.00010090000068885274,0,0,0,2,1
+tauto((p -> q) -> (q -> r) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,0.001039499999023974,0,0,0,5,4
+tauto((p & q) -> p),0,2,0,PROVED,NeuroProof+ATSS,0.00019109999993816018,0,0,0,3,2
+tauto((p & q) -> q),0,2,0,PROVED,NeuroProof+ATSS,0.00017589999697520398,0,0,0,3,2
+tauto(p -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,9.359999967273325e-05,0,0,0,3,2
+tauto(p -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,8.97999998414889e-05,0,0,0,3,2
+tauto(q -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,0.00016479999976581894,0,0,0,4,3
+tauto((p -> q) -> ((p -> ~q) -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,0.00039670000114711,0,0,0,5,4
+tauto((~p -> ~q) -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,0.0002918999998655636,0,0,0,4,3
+tauto(((p -> q) & (q -> r)) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,0.00034749999758787453,0,0,0,4,3
+tauto((p <-> q) -> (q <-> p)),0,2,0,PROVED,NeuroProof+ATSS,0.00048769999921205454,0,0,0,7,4
+tauto(((p | q) & ~p) -> q),0,2,0,PROVED,NeuroProof+ATSS,0.000243800001044292,0,0,0,3,2
+tauto(p | ~p),0,1,0,PROVED,NeuroProof+ATSS,0.00015279999934136868,0,0,0,2,1
+tauto(~(p & ~p)),0,1,0,PROVED,NeuroProof+ATSS,0.0001604999997653067,0,0,0,3,2
+tauto((p -> q) -> (~q -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,0.0005105000018374994,0,0,0,5,4
