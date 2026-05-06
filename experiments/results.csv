@@ -1,31 +1,31 @@
 name,instance_id,n_vars,n_clauses,status,solver,time_sec,decisions,conflicts,learned,proof_size,proof_depth
-tauto(p -> p),0,1,0,PROVED,NeuroProof+ATSS,0.00010840000322787091,0,0,0,2,1
-tauto(p -> p),1,1,0,PROVED,NeuroProof-noATSS,4.27999984822236e-05,0,0,0,2,1
-tauto((p -> q) -> (q -> r) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,0.0009648000050219707,0,0,0,5,4
-tauto((p -> q) -> (q -> r) -> (p -> r)),1,3,0,PROVED,NeuroProof-noATSS,0.0004087000052095391,0,0,0,5,4
-tauto((p & q) -> p),0,2,0,PROVED,NeuroProof+ATSS,4.340000305091962e-05,0,0,0,3,2
-tauto((p & q) -> p),1,2,0,PROVED,NeuroProof-noATSS,3.6600002204068005e-05,0,0,0,3,2
-tauto((p & q) -> q),0,2,0,PROVED,NeuroProof+ATSS,0.0001632999992580153,0,0,0,3,2
-tauto((p & q) -> q),1,2,0,PROVED,NeuroProof-noATSS,0.00015269999857991934,0,0,0,3,2
-tauto(p -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,5.4299998737405986e-05,0,0,0,4,3
-tauto(p -> (q -> p)),1,2,0,PROVED,NeuroProof-noATSS,5.0499998906161636e-05,0,0,0,4,3
-tauto(p -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,5.450000026030466e-05,0,0,0,4,3
-tauto(p -> (p | q)),1,2,0,PROVED,NeuroProof-noATSS,5.080000119050965e-05,0,0,0,4,3
-tauto(q -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,3.659999492811039e-05,0,0,0,5,4
-tauto(q -> (p | q)),1,2,0,PROVED,NeuroProof-noATSS,3.3899996196851134e-05,0,0,0,5,4
-tauto((p -> q) -> ((p -> ~q) -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,0.00037709999742219225,0,0,0,5,4
-tauto((p -> q) -> ((p -> ~q) -> ~p)),1,2,0,PROVED,NeuroProof-noATSS,0.0004138000003877096,0,0,0,5,4
-tauto((~p -> ~q) -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,5.529999907594174e-05,0,0,0,5,4
-tauto((~p -> ~q) -> (q -> p)),1,2,0,PROVED,NeuroProof-noATSS,0.00016910000704228878,0,0,0,5,4
-tauto(((p -> q) & (q -> r)) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,9.389999468112364e-05,0,0,0,5,4
-tauto(((p -> q) & (q -> r)) -> (p -> r)),1,3,0,PROVED,NeuroProof-noATSS,0.00013179999950807542,0,0,0,5,4
-tauto((p <-> q) -> (q <-> p)),0,2,0,PROVED,NeuroProof+ATSS,0.00010130000009667128,0,0,0,10,5
-tauto((p <-> q) -> (q <-> p)),1,2,0,PROVED,NeuroProof-noATSS,0.00018219999765278772,0,0,0,10,5
-tauto(((p | q) & ~p) -> q),0,2,0,PROVED,NeuroProof+ATSS,5.43000060133636e-05,0,0,0,4,3
-tauto(((p | q) & ~p) -> q),1,2,0,PROVED,NeuroProof-noATSS,4.7900000936351717e-05,0,0,0,4,3
-tauto(p | ~p),0,1,0,PROVED,NeuroProof+ATSS,2.8200003725942224e-05,0,0,0,3,2
-tauto(p | ~p),1,1,0,PROVED,NeuroProof-noATSS,2.3200002033263445e-05,0,0,0,3,2
-tauto(~(p & ~p)),0,1,0,PROVED,NeuroProof+ATSS,3.290000313427299e-05,0,0,0,4,3
-tauto(~(p & ~p)),1,1,0,PROVED,NeuroProof-noATSS,2.729999687289819e-05,0,0,0,4,3
-tauto((p -> q) -> (~q -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,7.130000449251384e-05,0,0,0,6,5
-tauto((p -> q) -> (~q -> ~p)),1,2,0,PROVED,NeuroProof-noATSS,6.739999662386253e-05,0,0,0,6,5
+tauto(p -> p),0,1,0,PROVED,NeuroProof+ATSS,0.00011439999798312783,0,0,0,2,1
+tauto(p -> p),1,1,0,PROVED,NeuroProof-noATSS,4.140000237384811e-05,0,0,0,2,1
+tauto((p -> q) -> (q -> r) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,0.0009325999999418855,0,0,0,5,4
+tauto((p -> q) -> (q -> r) -> (p -> r)),1,3,0,PROVED,NeuroProof-noATSS,0.000382099999114871,0,0,0,5,4
+tauto((p & q) -> p),0,2,0,PROVED,NeuroProof+ATSS,5.539999983739108e-05,0,0,0,3,2
+tauto((p & q) -> p),1,2,0,PROVED,NeuroProof-noATSS,3.819999983534217e-05,0,0,0,3,2
+tauto((p & q) -> q),0,2,0,PROVED,NeuroProof+ATSS,0.00017839999782154337,0,0,0,3,2
+tauto((p & q) -> q),1,2,0,PROVED,NeuroProof-noATSS,0.0001618999958736822,0,0,0,3,2
+tauto(p -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,5.660000169882551e-05,0,0,0,4,3
+tauto(p -> (q -> p)),1,2,0,PROVED,NeuroProof-noATSS,4.959999932907522e-05,0,0,0,4,3
+tauto(p -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,5.5900003644637764e-05,0,0,0,4,3
+tauto(p -> (p | q)),1,2,0,PROVED,NeuroProof-noATSS,5.129999772179872e-05,0,0,0,4,3
+tauto(q -> (p | q)),0,2,0,PROVED,NeuroProof+ATSS,3.970000398112461e-05,0,0,0,5,4
+tauto(q -> (p | q)),1,2,0,PROVED,NeuroProof-noATSS,3.409999771974981e-05,0,0,0,5,4
+tauto((p -> q) -> ((p -> ~q) -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,0.0003899000003002584,0,0,0,5,4
+tauto((p -> q) -> ((p -> ~q) -> ~p)),1,2,0,PROVED,NeuroProof-noATSS,0.0004048999981023371,0,0,0,5,4
+tauto((~p -> ~q) -> (q -> p)),0,2,0,PROVED,NeuroProof+ATSS,5.94000011915341e-05,0,0,0,5,4
+tauto((~p -> ~q) -> (q -> p)),1,2,0,PROVED,NeuroProof-noATSS,4.9500005843583494e-05,0,0,0,5,4
+tauto(((p -> q) & (q -> r)) -> (p -> r)),0,3,0,PROVED,NeuroProof+ATSS,6.969999958528206e-05,0,0,0,5,4
+tauto(((p -> q) & (q -> r)) -> (p -> r)),1,3,0,PROVED,NeuroProof-noATSS,6.519999442389235e-05,0,0,0,5,4
+tauto((p <-> q) -> (q <-> p)),0,2,0,PROVED,NeuroProof+ATSS,9.43000050028786e-05,0,0,0,10,5
+tauto((p <-> q) -> (q <-> p)),1,2,0,PROVED,NeuroProof-noATSS,9.069999941857532e-05,0,0,0,10,5
+tauto(((p | q) & ~p) -> q),0,2,0,PROVED,NeuroProof+ATSS,5.160000000614673e-05,0,0,0,4,3
+tauto(((p | q) & ~p) -> q),1,2,0,PROVED,NeuroProof-noATSS,4.819999594474211e-05,0,0,0,4,3
+tauto(p | ~p),0,1,0,PROVED,NeuroProof+ATSS,2.8800001018680632e-05,0,0,0,3,2
+tauto(p | ~p),1,1,0,PROVED,NeuroProof-noATSS,2.390000008745119e-05,0,0,0,3,2
+tauto(~(p & ~p)),0,1,0,PROVED,NeuroProof+ATSS,9.059999865712598e-05,0,0,0,4,3
+tauto(~(p & ~p)),1,1,0,PROVED,NeuroProof-noATSS,3.390000347280875e-05,0,0,0,4,3
+tauto((p -> q) -> (~q -> ~p)),0,2,0,PROVED,NeuroProof+ATSS,0.0001049999991664663,0,0,0,6,5
+tauto((p -> q) -> (~q -> ~p)),1,2,0,PROVED,NeuroProof-noATSS,7.190000178525224e-05,0,0,0,6,5
